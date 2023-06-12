@@ -28,6 +28,7 @@ body {
 }
  .name-info{
    font-size: 20px;
+   font-weight: bold;
  }
  .career-info{
    font-size: 14px;
