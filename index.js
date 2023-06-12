@@ -59,9 +59,8 @@ arr.forEach((element) => {
   aboutDirector.append(name, careerAndFilms);
   careerAndFilms.append(career, films);
 });
-const topList = [];
+const topFilmsList = [];
 arr.forEach((element) => {
-  topList.push(element.top_rated_film);
+  topFilmsList.push(element.top_rated_film);
 });
-bestMovies.innerText = topList.join(", ");
-//});
+bestMovies.innerText = topFilmsList.join(", ");
